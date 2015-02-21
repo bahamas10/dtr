@@ -34,7 +34,7 @@ ease of use.
 
 List available scripts in the `exec` section
 
-    $ dtr ls
+    $ dtr ls exec
     exec                                trace successful exec*(2) syscalls
       exec/exec.d                       print all successful exec(2) call details
 
@@ -117,7 +117,7 @@ be executed with `-d`
 How
 ---
 
-Scripts are stored in the [/scripts](/scripts) directory in this repository.  Inside
+Scripts are stored in the [scripts/](/scripts) directory in this repository.  Inside
 there are directories for each section (syscalls, exec, files, etc.) which contain 1. the
 actual D scripts that will be executed and 2. a `manifest.json` file explaining the scripts.
 
