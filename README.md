@@ -15,7 +15,7 @@ How To
 
 Simply run `dtr` to get an interactive menu of scripts to run
 
-![Screenshot](//www.daveeddy.com/static/media/github/dtr.gif)
+![Screenshot](http//www.daveeddy.com/static/media/github/dtr.gif)
 
 `dtr` will show D scripts broken down by section that you can call
 simply by clicking enter.
