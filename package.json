@@ -1,6 +1,6 @@
 {
   "name": "dtr",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Node.JS wrapper around useful D scripts to lower the bar for entry for using DTrace",
   "main": "dtr.js",
   "preferGlobal": true,
