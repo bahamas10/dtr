@@ -1,0 +1,6 @@
+{
+  "caption": "trace successful exec*(2) syscalls",
+  "scripts": {
+    "exec.d": "print all successful exec(2) call details"
+  }
+}

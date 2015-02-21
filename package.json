@@ -1,0 +1,21 @@
+{
+  "name": "dtr",
+  "version": "0.0.0",
+  "description": "Node.JS wrapper around useful D scripts to lower the bar for entry for using DTrace",
+  "main": "dtr.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dtr": "./dtr.js"
+  },
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "license": "MIT",
+  "dependencies": {
+    "justify": "^1.0.0",
+    "latest": "^0.2.0",
+    "posix-getopt": "^1.1.0",
+    "terminal-menu": "^2.1.1"
+  }
+}

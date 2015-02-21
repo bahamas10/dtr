@@ -1,0 +1,7 @@
+{
+  "caption": "isolate slowness on the system",
+  "scripts": {
+    "read-latency.d": "summarize latency of read(2) calls, exit after ctrl-c",
+    "read-latency-5sec.d": "summarize latency of read(2) calls for 5 seconds"
+  }
+}

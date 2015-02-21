@@ -1,0 +1,12 @@
+{
+  "caption": "system call level tracing",
+  "scripts": {
+    "count-10sec.d": "count syscalls per process, exit after 10 seconds",
+    "count.d": "count syscalls per process, exit after ctrl-c",
+    "syscall.d": "count syscalls per process and name, exit after ctrl-c",
+    "pid-count.d": {
+      "caption": "count syscalls by name on <pid>, exit after ctrl-c",
+      "pid": true
+    }
+  }
+}

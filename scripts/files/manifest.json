@@ -1,0 +1,10 @@
+{
+  "caption": "trace file level calls",
+  "scripts": {
+    "opened-files.d": "print all filenames opened on the system",
+    "pid-opened-files.d": {
+      "caption": "print all filenames opened on the system by <pid>",
+      "pid": true
+    }
+  }
+}
